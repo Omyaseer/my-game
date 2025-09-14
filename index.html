@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- css link -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>NOW IT'S TIME TO PLAY 😎 🎮</h1>
+
+    <h2>Reaction Time Tester ⏱️</h2>
+
+    <h3>Click the box as soon as it appears!</h3>
+
+    <!-- button to play -->
+
+    <button>PLAY</button>
+
+    <!-- have score and time and timer and Bestscore -->
+
+    <div class="sco">
+      <h4>Score : <span></span></h4>
+      <h4 class="high">Best time : <span class="tim"></span></h4>
+      <h4>
+        Time duration : <span class="h"></span> : <span class="m"></span> :
+        <span class="s"> </span>
+      </h4>
+      <h4 class="high">High score : <span class="span1"></span></h4>
+    </div>
+  
+    <!-- modal to annonce that you lose -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">LOSER 🤪 👎 </h5>
+          </div>
+          <div class="modal-body">
+            <p>GAME OVER 🎮🤪❌</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">PLAY AGAIN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- screen play and circle -->
+
+    <section>
+      <div class="play"></div>
+    </section>
+
+    <!-- bootstrap link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- java script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
